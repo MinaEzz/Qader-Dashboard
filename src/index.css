@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#login-page {
+  background-image: url(./assets/images/logo.png);
+}
+#login-page input {
+  box-shadow: 0px 0px 8px #fff;
+}
