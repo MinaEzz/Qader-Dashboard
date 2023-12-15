@@ -10,7 +10,7 @@ const LoginPage = () => {
       id="login-page"
       className="w-screen h-[100dvh] bg-neutral-100 bg-center bg-cover flex justify-center items-center"
     >
-      <div className="lg:w-[70%] lg:h-96 w-full h-full gap-y-6 mx-auto rounded-xl flex flex-col items-center pt-12 pb-6 px-12 bg-[rgba(0,0,0,0.5)] ">
+      <div className="lg:w-[70%] lg:h-96 w-full h-full gap-y-6 mx-auto rounded-xl flex flex-col items-center pt-12 pb-6 px-12 bg-[rgba(80,80,80,0.9)] ">
         <h1 className="text-5xl text-center text-white font-bold capitalize">
           <span className="text-[#0d6efd] font-extrabold">qader</span> dashboard
           login

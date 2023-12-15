@@ -12,7 +12,7 @@ const Layout = () => {
       {/* ./sidebar */}
       <div className="flex flex-1 flex-col px-6">
         <Header />
-        <main>{<Outlet />}</main>
+        <main className="mt-4 py-4">{<Outlet />}</main>
       </div>
       {/* ./header and main */}
     </section>

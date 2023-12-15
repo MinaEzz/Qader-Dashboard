@@ -11,7 +11,11 @@ const Sidebar = () => {
   return (
     <aside
       className="bg-white w-1/5 h-full flex flex-col items-center rounded-tr-3xl rounded-br-3xl"
-      style={{ boxShadow: "2px 0 8px -1px #888" }}
+      style={{
+        boxShadow: "2px 0 8px -1px rgb(115,115,115)",
+        position: "sticky",
+        top: 0,
+      }}
     >
       <div>
         <Link to="/dashboard" className="">
