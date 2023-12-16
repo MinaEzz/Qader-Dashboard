@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <section
       id="layout"
-      className="w-screen min-h-[100dvh] overflow-hidden flex bg-neutral-100"
+      className=" w-[100dvw] min-h-[100dvh] overflow-hidden flex bg-neutral-100"
     >
       <Sidebar />
       {/* ./sidebar */}

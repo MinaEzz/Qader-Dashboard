@@ -63,15 +63,15 @@ export const TRANSACTION_DATA = [
 
 export const BUYER_PROFILE_DATA = [
   {
-    name: "male",
+    name: "Male",
     value: 200,
   },
   {
-    name: "female",
+    name: "Female",
     value: 400,
   },
   {
-    name: "other",
+    name: "Other",
     value: 100,
   },
 ];

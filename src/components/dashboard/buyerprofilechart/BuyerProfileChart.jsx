@@ -4,7 +4,6 @@ import { BUYER_PROFILE_DATA } from "../../../data/data";
 const BuyerProfileChart = () => {
   const RADIAN = Math.PI / 180;
   const COLORS = ["#00c49f", "#ffbb28", "#ff8042"];
-
   const renderCustomizedLabel = ({
     cx,
     cy,
@@ -47,7 +46,7 @@ const BuyerProfileChart = () => {
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={100}
+            outerRadius={90}
             fill="#8884d8"
             dataKey="value"
           >
