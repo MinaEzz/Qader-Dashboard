@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* don't use it for everything just use it for larger class names */
+@layer components {
+  .side-bar-link {
+    @apply flex items-center py-2 px-3 gap-2 hover:pl-4 transition-all text-base capitalize;
+  }
+}
 
 body {
   font-family: "Roboto", sans-serif;

@@ -1,6 +1,7 @@
 import DashboardStateGrid from "../../components/dashboard/dashboardstategrid/DashboardStateGrid";
 import TransactionChart from "../../components/dashboard/transactionchart/TransactionChart";
 import BuyerProfileChart from "../../components/dashboard/buyerprofilechart/BuyerProfileChart";
+import DashboardTable from "../../components/shared/table/Table";
 
 const DashboardPage = () => {
   return (
@@ -12,9 +13,8 @@ const DashboardPage = () => {
       </ChartsWrapper>
 
       <ChartsWrapper>
-        <div className="flex flex-col flex-1 p-4 bg-white rounded-sm border border-neutral-200">
-          left part
-        </div>
+        <DashboardTable />
+
         <div className="w-[20rem]">right part</div>
       </ChartsWrapper>
     </section>

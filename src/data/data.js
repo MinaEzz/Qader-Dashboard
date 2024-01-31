@@ -75,3 +75,10 @@ export const BUYER_PROFILE_DATA = [
     value: 100,
   },
 ];
+
+export const USER = [
+  {
+    username: "admin",
+    password: "admin123",
+  },
+];

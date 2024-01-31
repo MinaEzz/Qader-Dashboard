@@ -7,7 +7,7 @@ import {
 
 const DashboardStateGrid = () => {
   return (
-    <section className="w-full flex gap-4 bg-ble-300">
+    <section className="w-full flex space-x-4">
       <StateGridCard>
         <div className="p-3 rounded-tr-3xl rounded-br-3xl bg-[#0d6efd] ">
           <IoBagHandle fontSize={26} color="white" />
