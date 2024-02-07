@@ -1,5 +1,5 @@
 import { ResponsiveContainer, PieChart, Pie, Cell, Legend } from "recharts";
-import { BUYER_PROFILE_DATA } from "../../../data/data";
+import { BUYER_PROFILE_DATA } from "../../data/data";
 
 const BuyerProfileChart = () => {
   const RADIAN = Math.PI / 180;
@@ -30,7 +30,7 @@ const BuyerProfileChart = () => {
   };
 
   return (
-    <div className="w-[20rem] flex flex-col p-4 bg-white rounded-sm border border-neutral-200">
+    <div className="w-[19rem] flex flex-col p-4 bg-white rounded-sm border border-neutral-200">
       <strong className="text-lg font-medium text-neutral-500 capitalize">
         buyer profile
       </strong>

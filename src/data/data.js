@@ -80,5 +80,6 @@ export const USER = [
   {
     username: "admin",
     password: "admin123",
+    type: "admin",
   },
 ];

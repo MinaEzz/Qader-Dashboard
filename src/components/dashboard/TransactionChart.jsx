@@ -8,7 +8,7 @@ import {
   CartesianGrid,
   Legend,
 } from "recharts";
-import { TRANSACTION_DATA } from "../../../data/data";
+import { TRANSACTION_DATA } from "../../data/data";
 
 const TransactionChart = () => {
   return (

@@ -1,24 +1,18 @@
 import { Link } from "react-router-dom";
-import logo from "../../../../assets/images/logo.png";
 import { DASHBOARD_SIDEBAR_LINKS } from "../../../../constants/DashboardNavigations";
-import { useLocation } from "react-router-dom";
 
-const Sidebar = () => {
-  // const linkClasses = "flex items-center py-2 px-3 gap-2 hover:pl-4 transition-all text-base capitalize";
-  const { pathname } = useLocation();
-
+const Sidebar = ({ pathname }) => {
   return (
     <aside
-      className="bg-white w-1/5 h-full flex flex-col items-center rounded-tr-3xl rounded-br-3xl"
+      className="bg-white w-1/5 h-fit flex flex-col gap-4 items-center rounded-tr-3xl rounded-br-3xl"
       style={{
         boxShadow: "2px 0 8px -1px rgb(115,115,115)",
       }}
     >
-      <div>
+      <div className="bg-primary w-full h-20 flex justify-center items-center">
         <Link to="/dashboard" className="">
           <img
-            className=""
-            src={logo}
+            src=""
             alt="Qader Website Logo"
             draggable={false}
             loading="lazy"
@@ -37,7 +31,7 @@ const Sidebar = () => {
                 to={link.path}
                 className={
                   pathname === link.path
-                    ? ` side-bar-link bg-neutral-300 text-[#0d6efd] font-extrabold pl-4 `
+                    ? ` side-bar-link bg-neutral-300 text-primary font-extrabold pl-4 `
                     : ` side-bar-link font-medium text-black`
                 }
               >
